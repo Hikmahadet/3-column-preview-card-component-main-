@@ -114,11 +114,9 @@ p{
 
 }
 
-@media (max-width:1440px) {
-    
-}
+
 @media (max-width:425px) {
-    .lxbtn{
+    .main{
         flex-wrap: nowrap;
         flex-direction: column;
     }
@@ -126,6 +124,9 @@ p{
         border-radius: 0%;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
+    }
+    .secondbox{
+        border-radius: 0%;
     }
     .thirdbox{
         border-radius: 0%;
