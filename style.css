@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@400;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+  body{
+    background-color: white;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid; 
+    place-items: center; 
+    margin-top: 60px;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width:65%
+}
+
+button:hover{
+    cursor: pointer;
+    color: white; 
+    border: solid white; 
+}
+
+
+.firstbox{
+    background-color:  hsl(31, 77%, 52%);
+    width: 200px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%
+}
+
+h1{
+    color:hsl(0, 0%, 95%) ;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.main{
+    display: flex;
+    height: 400px;
+  
+
+}
+
+.secondbox{
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    padding: 20px;
+    
+}
+
+h1{
+    color:hsl(0, 0%, 95%) ;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+.thirdbox{
+    background-color:  hsl(179, 100%, 13%);
+    width: 200px;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1{
+    color:hsl(0, 0%, 95%) ;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sdnbtn{
+    color:hsl(31, 77%, 52%)
+}
+.sdnbtn:hover{
+    background-color:hsl(31, 77%, 52%)
+}
+
+.svbtn{
+    color:hsl(184, 100%, 22%)
+}
+.svbtn:hover{
+    background-color:hsl(184, 100%, 22%)
+}
+
+.lxbtn{
+    color:hsl(179, 100%, 13%);
+}
+.lxbtn:hover{
+    background-color: hsl(179, 100%, 13%);;
+
+}
+
+@media (max-width:1440px) {
+    
+}
+@media (max-width:375px) {
+    .lxbtn{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .firstbox{
+        border-radius: 0%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .thirdbox{
+        border-radius: 0%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+
